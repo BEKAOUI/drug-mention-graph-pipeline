@@ -20,14 +20,14 @@ Ce pipeline a été conçu pour être intégré dans un orchestrateur de type DA
 
 ##  Structure du projet
 drug-mention-graph-pipeline/  
-├── data /    #donnee source : Données sources (CSV, JSON)  
-├── cofig /   #Fichiers de configuration (chemins, constantes, etc.)    
-├── data_collection/     # Scripts pour charger et parser les données  
-├── data_preparation/    # Nettoyage, normalisation et traitement des données   
-├── graph_builder/       # Construction du graphe de mentions  
-├── logs/                # Fichiers de logs générés lors de l’exécution  
-├── output/              # Graphes générés en sortie (fichiers JSON)  
-├── test/                # Tests unitaires et de validation  
-├── utils/               # Fonctions atomiques partagées  
-├── main.py              # Point d’entrée principal du pipeline  
-└── requirements.txt     # Dépendances Python du projet  
+├── data /                     #donnee source : Données sources (CSV, JSON)  
+├── cofig /                    #Fichiers de configuration (chemins, constantes, etc.)    
+├── data_collection /           # Scripts pour charger et parser les données  
+├── data_preparation /          # Nettoyage, normalisation et traitement des données   
+├── graph_builder /             # Construction du graphe de mentions  
+├── logs /                      # Fichiers de logs générés lors de l’exécution  
+├── output /                    # Graphes générés en sortie (fichiers JSON)  
+├── test /                      # Tests unitaires et de validation  
+├── utils /                     # Fonctions atomiques partagées  
+├── main.py                    # Point d’entrée principal du pipeline  
+└── requirements.txt           # Dépendances Python du projet  
