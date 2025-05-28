@@ -4,12 +4,9 @@ import json
 import os
 import re
 from typing import Union
+from utils.logger_utils import get_logger
 
-def log_error(message: str, log_path: str = "logs/loading_errors.log"):
-    os.makedirs(os.path.dirname(log_path), exist_ok=True)
-    with open(log_path, "a") as f:
-        f.write(message + "\n")
-
+logger = get_logger()
 
 def load_csv(path: str, encoding: str = "utf-8") -> pd.DataFrame:
     """
@@ -18,14 +15,14 @@ def load_csv(path: str, encoding: str = "utf-8") -> pd.DataFrame:
     """
     if not os.path.exists(path):
         msg = f"[load_csv] Fichier introuvable : {path}"
-        log_error(msg)
+        logger.error(msg)
         raise FileNotFoundError(msg)
 
     try:
         df = pd.read_csv(path, encoding=encoding)
     except Exception as e:
         msg = f"[load_csv] Erreur de lecture CSV ({path}) : {e}"
-        log_error(msg)
+        logger.error(msg)
         raise ValueError(msg)
 
     return df
@@ -37,7 +34,7 @@ def load_json_as_dataframe(path: str) -> pd.DataFrame:
     """
     if not os.path.exists(path):
         msg = f"[load_json_as_dataframe] Fichier introuvable : {path}"
-        log_error(msg)
+        logger.error(msg)
         raise FileNotFoundError(msg)
 
     try:
@@ -47,17 +44,17 @@ def load_json_as_dataframe(path: str) -> pd.DataFrame:
 
             if not isinstance(data, list):
                 msg = "[load_json_as_dataframe] Le format du fichier json est invaide!"
-                log_error(msg)
+                logger.error(msg)
                 raise ValueError(msg)
             return pd.DataFrame(data)
             
     except json.JSONDecodeError as e:
         msg = f"[load_json_as_dataframe] JSON invalide ({path}) : {e}"
-        log_error(msg)
+        logger.error(msg)
         raise ValueError(msg)
     except Exception as e:
         msg = f"[load_json_as_dataframe] Erreur({path}) : {e}"
-        log_error(msg)
+        logger.error(msg)
         raise ValueError(msg)
 
 def remove_misplaced_commas(json_str):

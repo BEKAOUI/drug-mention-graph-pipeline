@@ -367,3 +367,59 @@ Name: id, dtype: bool).
 2025-05-28 02:46:27 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
 6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
 2025-05-28 02:46:27 - INFO - Construction du graphe de données
+2025-05-28 09:35:58 - INFO - Début du pipeline de traitement des données
+2025-05-28 09:35:58 - INFO - Chargement des données : drugs
+2025-05-28 09:35:58 - INFO - Nettoyage des données
+2025-05-28 09:35:58 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 09:35:58 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne =   id                                              title        date                                            journal
+4     Comparison of pressure BETAMETHASONE release, ...  01/03/2020  The journal of maternal-fetal & neonatal medicine).
+2025-05-28 09:35:58 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne =     id                                   scientific_title        date                       journal
+6  NaN  Glucagon Infusion in T1D Patients With Recurre...  25/05/2020  Journal of emergency nursing).
+2025-05-28 09:35:58 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 09:35:58 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 09:35:58 - INFO - Construction du graphe de données
+2025-05-28 15:06:10 - INFO - Début du pipeline de traitement des données
+2025-05-28 15:06:10 - INFO - Chargement des données : drugs
+2025-05-28 15:06:10 - INFO - Nettoyage des données
+2025-05-28 15:06:10 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 15:06:10 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne =   id                                              title        date                                            journal
+4     Comparison of pressure BETAMETHASONE release, ...  01/03/2020  The journal of maternal-fetal & neonatal medicine).
+2025-05-28 15:06:10 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne =     id                                   scientific_title        date                       journal
+6  NaN  Glucagon Infusion in T1D Patients With Recurre...  25/05/2020  Journal of emergency nursing).
+2025-05-28 15:06:10 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 15:06:10 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 15:06:10 - INFO - Construction du graphe de données
+2025-05-28 15:09:13 - INFO - Début du pipeline de traitement des données
+2025-05-28 15:09:13 - INFO - Chargement des données : drugs
+2025-05-28 15:09:13 - INFO - Nettoyage des données
+2025-05-28 15:09:13 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 15:09:13 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne =   id                                              title        date                                            journal
+4     Comparison of pressure BETAMETHASONE release, ...  01/03/2020  The journal of maternal-fetal & neonatal medicine).
+2025-05-28 15:09:13 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne =     id                                   scientific_title        date                       journal
+6  NaN  Glucagon Infusion in T1D Patients With Recurre...  25/05/2020  Journal of emergency nursing).
+2025-05-28 15:09:13 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 15:09:13 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 15:09:13 - INFO - Construction du graphe de données
+2025-05-28 15:44:00 - INFO - Début du pipeline de traitement des données
+2025-05-28 15:44:00 - INFO - Chargement des données : drugs
+2025-05-28 15:44:00 - INFO - Nettoyage des données
+2025-05-28 15:44:00 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 15:44:00 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne =   id                                              title        date                                            journal
+4     Comparison of pressure BETAMETHASONE release, ...  01/03/2020  The journal of maternal-fetal & neonatal medicine).
+2025-05-28 15:44:00 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne =     id                                   scientific_title        date                       journal
+6  NaN  Glucagon Infusion in T1D Patients With Recurre...  25/05/2020  Journal of emergency nursing).
+2025-05-28 15:44:00 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 15:44:00 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 15:44:00 - INFO - Construction du graphe de données

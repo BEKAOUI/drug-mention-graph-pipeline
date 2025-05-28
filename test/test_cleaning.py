@@ -2,19 +2,18 @@
 import pytest
 import pandas as pd
 from utils.cleaning_helpers import _normalize_id, _validate_required_columns, _clean_text_fields, _parse_and_validate_dates
-import uuid
 import os
 
 
 def test_normalize_id_pubmed_generates_ids():
     df = pd.DataFrame({"id": ["1", None, "  ", "3"]})
-    df = _normalize_id(df)
+    df = _normalize_id(df,source_name="test")
     assert df["id"].notnull().all()
     assert df["id"].apply(lambda x: isinstance(x, str)).all()
 
 def test_normalize_id_clinical_generates_ids():
     df = pd.DataFrame({"id": ["NCT001", None, ""]})
-    df = _normalize_id(df)
+    df = _normalize_id(df,source_name="test")
     assert df["id"].notnull().all()
     assert df["id"].apply(lambda x: isinstance(x, str)).all()
 

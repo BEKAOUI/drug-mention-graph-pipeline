@@ -28,7 +28,7 @@ def _normalize_id(df: pd.DataFrame, source_name: str) -> pd.DataFrame:
 
     if missing_mask.any():
         logger.warning(
-            f"[{source_name}] Champs 'id' vide ou null détecté (ligne = {missing_mask})."
+            f"[{source_name}] Champs 'id' vide ou null détecté (ligne = {df[missing_mask]})."
         )
     return df
 
