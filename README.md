@@ -14,8 +14,13 @@ drug-mention-graph-pipeline/
 ├── data/                   # Données d'entrée CSV/
 
 ├── logs/                   # Fichiers de logs générés
+
 ├── output/                 # Résultat final (graph.json)
+
 ├── tests/                  # Tests unitaires (pytest)
+
 ├── utils/                  # Modules métiers (loader, cleaner, atomques.)
+
 ├── requirements.txt        # Dépendances Python
+
 └── README.md               
