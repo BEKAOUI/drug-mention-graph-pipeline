@@ -20,6 +20,6 @@ Ce pipeline a été conçu pour être intégré dans un orchestrateur de type DA
 
 ##  Structure du projet
 drug-mention-graph-pipeline/
-├── data /    #donnee source : Données sources (CSV, JSON) \n
-├── cofig /   #Fichiers de configuration (chemins, constantes, etc.)
+├── data /    #donnee source : Données sources (CSV, JSON)  
+├── cofig /   #Fichiers de configuration (chemins, constantes, etc.)  
           
