@@ -40,3 +40,10 @@ drug-mention-graph-pipeline/
 | `pubmed.csv`          | Publications scientifiques issues de PubMed (format CSV).         |
 | `pubmed.json`         | Autres publications scientifiques issues de PubMed (format JSON). |
 | `clinical_trials.csv` | Données issues d’essais cliniques.                                |
+
+Chaque source contient des métadonnées clés comme :
+- id : identifiant unique de la publication ou de l’essai,
+- title ou scientific_title : titre de l’étude,
+- date : date de publication d'un article dans un journal,
+- journal : nom du journal de publication,
+- drug / atccode : dans le fichier drugs.csv, nom du médicament et son code ATC.
