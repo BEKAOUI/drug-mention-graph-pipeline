@@ -19,7 +19,7 @@ Ce travail est conçu pour être intégré dans un orchestrateur de type DAG.
 Ce pipeline a été conçu pour être intégré dans un orchestrateur de type DAG (Directed Acyclic Graph), tel qu’Apache Airflow ou Prefect, facilitant son automatisation et sa planification.
 
 ##  Structure du projet
-drug-mention-graph-pipeline/
+drug-mention-graph-pipeline/  
 ├── data /    #donnee source : Données sources (CSV, JSON)  
 ├── cofig /   #Fichiers de configuration (chemins, constantes, etc.)  
           
