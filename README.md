@@ -31,3 +31,12 @@ drug-mention-graph-pipeline/
 ├── utils /                     # Fonctions atomiques partagées  
 ├── main.py                    # Point d’entrée principal du pipeline  
 └── requirements.txt           # Dépendances Python du projet  
+
+## Source de données
+
+| Fichier               | Description                                                       |
+| --------------------- | ----------------------------------------------------------------- |
+| `drugs.csv`           | Liste des médicaments, avec leur nom et leur code ATC.            |
+| `pubmed.csv`          | Publications scientifiques issues de PubMed (format CSV).         |
+| `pubmed.json`         | Autres publications scientifiques issues de PubMed (format JSON). |
+| `clinical_trials.csv` | Données issues d’essais cliniques.                                |
