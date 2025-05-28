@@ -6,9 +6,13 @@ Ce projet extrait, nettoie, fusionne et structure les données de publications s
 
 ##  Structure du projet
 drug-mention-graph-pipeline/
-├── main.py                  # Exécution principale                
+
+├── main.py                  # Exécution principale
+
 ├── config/                 # Configurations des variable globales
-├── data/                   # Données d'entrée CSV/JSON
+
+├── data/                   # Données d'entrée CSV/
+
 ├── logs/                   # Fichiers de logs générés
 ├── output/                 # Résultat final (graph.json)
 ├── tests/                  # Tests unitaires (pytest)
