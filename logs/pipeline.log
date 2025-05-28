@@ -1,0 +1,369 @@
+2025-05-28 01:49:16 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 01:49:16 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4     True
+Name: id, dtype: bool).
+2025-05-28 01:49:16 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6     True
+7    False
+Name: id, dtype: bool).
+2025-05-28 01:49:16 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 01:49:16 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 01:52:22 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 01:52:22 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4     True
+Name: id, dtype: bool).
+2025-05-28 01:52:22 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6     True
+7    False
+Name: id, dtype: bool).
+2025-05-28 01:52:22 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 01:52:22 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 01:52:37 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 01:52:37 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4     True
+Name: id, dtype: bool).
+2025-05-28 01:52:37 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6     True
+7    False
+Name: id, dtype: bool).
+2025-05-28 01:52:38 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 01:52:38 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 01:57:03 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 01:57:03 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4     True
+Name: id, dtype: bool).
+2025-05-28 01:57:03 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6     True
+7    False
+Name: id, dtype: bool).
+2025-05-28 01:57:03 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 01:57:03 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 02:04:06 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 02:04:06 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4     True
+Name: id, dtype: bool).
+2025-05-28 02:04:06 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6     True
+7    False
+Name: id, dtype: bool).
+2025-05-28 02:04:06 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 02:04:06 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 02:10:09 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 02:10:09 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4     True
+Name: id, dtype: bool).
+2025-05-28 02:10:09 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6     True
+7    False
+Name: id, dtype: bool).
+2025-05-28 02:10:09 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 02:10:09 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 02:14:24 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 02:14:24 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4     True
+Name: id, dtype: bool).
+2025-05-28 02:14:24 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6     True
+7    False
+Name: id, dtype: bool).
+2025-05-28 02:14:24 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 02:14:24 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 02:15:25 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 02:15:25 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4     True
+Name: id, dtype: bool).
+2025-05-28 02:15:25 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6     True
+7    False
+Name: id, dtype: bool).
+2025-05-28 02:15:25 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 02:15:25 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 02:25:34 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 02:25:34 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4     True
+Name: id, dtype: bool).
+2025-05-28 02:25:34 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6     True
+7    False
+Name: id, dtype: bool).
+2025-05-28 02:25:34 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 02:25:34 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 02:26:32 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 02:26:32 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4     True
+Name: id, dtype: bool).
+2025-05-28 02:26:32 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6     True
+7    False
+Name: id, dtype: bool).
+2025-05-28 02:26:32 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 02:26:32 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 02:28:41 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 02:28:41 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4     True
+Name: id, dtype: bool).
+2025-05-28 02:28:41 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6     True
+7    False
+Name: id, dtype: bool).
+2025-05-28 02:28:41 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 02:28:41 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 02:30:49 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 02:30:49 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4     True
+Name: id, dtype: bool).
+2025-05-28 02:30:49 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6     True
+7    False
+Name: id, dtype: bool).
+2025-05-28 02:30:49 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 02:30:49 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 02:36:01 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 02:36:01 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4     True
+Name: id, dtype: bool).
+2025-05-28 02:36:01 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6     True
+7    False
+Name: id, dtype: bool).
+2025-05-28 02:36:01 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 02:36:01 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 02:37:03 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 02:37:03 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4     True
+Name: id, dtype: bool).
+2025-05-28 02:37:03 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6     True
+7    False
+Name: id, dtype: bool).
+2025-05-28 02:37:03 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 02:37:03 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 02:45:36 - INFO - Début du pipeline de traitement des données
+2025-05-28 02:45:36 - INFO - Chargement des données : drugs
+2025-05-28 02:45:36 - INFO - Nettoyage des données
+2025-05-28 02:45:36 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 02:45:36 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4     True
+Name: id, dtype: bool).
+2025-05-28 02:45:36 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6     True
+7    False
+Name: id, dtype: bool).
+2025-05-28 02:45:36 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 02:45:36 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 02:45:36 - INFO - Construction du graphe de données
+2025-05-28 02:46:03 - INFO - Début du pipeline de traitement des données
+2025-05-28 02:46:03 - INFO - Chargement des données : drugs
+2025-05-28 02:46:03 - INFO - Nettoyage des données
+2025-05-28 02:46:03 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 02:46:03 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4     True
+Name: id, dtype: bool).
+2025-05-28 02:46:03 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6     True
+7    False
+Name: id, dtype: bool).
+2025-05-28 02:46:03 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 02:46:03 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 02:46:03 - INFO - Construction du graphe de données
+2025-05-28 02:46:27 - INFO - Début du pipeline de traitement des données
+2025-05-28 02:46:27 - INFO - Chargement des données : drugs
+2025-05-28 02:46:27 - INFO - Nettoyage des données
+2025-05-28 02:46:27 - WARNING - [pubmed_csv] Les Champs 'date' est invalide (ligne =    id                                              title date             journal
+5   6  rapid reacquisition of contextual fear followi...  NaT  Psychopharmacology).
+2025-05-28 02:46:27 - WARNING - [pubmed.json] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4     True
+Name: id, dtype: bool).
+2025-05-28 02:46:27 - WARNING - [clinical_tials.csv] Champs 'id' vide ou null détecté (ligne = 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6     True
+7    False
+Name: id, dtype: bool).
+2025-05-28 02:46:27 - WARNING - [clinical_tials.csv] Les Champs scientific_title ou journal vide ou null détecté (ligne =             id                                   scientific_title        date journal
+5  NCT03490942  glucagon infusion in t1d patients with recurre...  25/05/2020     NaN).
+2025-05-28 02:46:27 - WARNING - [clinical_tials.csv] Les Champs 'date' est invalide (ligne =     id                                   scientific_title date                       journal
+6  NaN  glucagon infusion in t1d patients with recurre...  NaT  Journal Of Emergency Nursing).
+2025-05-28 02:46:27 - INFO - Construction du graphe de données

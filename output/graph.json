@@ -1,0 +1,209 @@
+[
+  {
+    "journal": "American Journal Of Veterinary Research",
+    "mentions": [
+      {
+        "source": "pubmed",
+        "date": "2020-01-02",
+        "reference": "5",
+        "drug": "TETRACYCLINE",
+        "atccode": "s03aa",
+        "title": "appositional tetracycline bone formation rates in the beagle."
+      }
+    ]
+  },
+  {
+    "journal": "Hôpitaux Universitaires De Genève",
+    "mentions": [
+      {
+        "source": "clinical_trial",
+        "date": "2020-01-01",
+        "reference": "NCT04153396",
+        "drug": "BETAMETHASONE",
+        "atccode": "r01ad",
+        "title": "preemptive infiltration with betamethasone and ropivacaine for postoperative pain in laminoplasty or \\xc3\\xb1 laminectomy"
+      }
+    ]
+  },
+  {
+    "journal": "Journal Of Back And Musculoskeletal Rehabilitation",
+    "mentions": [
+      {
+        "source": "pubmed",
+        "date": "2020-01-01",
+        "reference": "11",
+        "drug": "BETAMETHASONE",
+        "atccode": "r01ad",
+        "title": "effects of topical application of betamethasone on imiquimod-induced psoriasis-like skin inflammation in mice."
+      }
+    ]
+  },
+  {
+    "journal": "Journal Of Emergency Nursing",
+    "mentions": [
+      {
+        "source": "pubmed",
+        "date": "2019-01-01",
+        "reference": "1",
+        "drug": "DIPHENHYDRAMINE",
+        "atccode": "a04ad",
+        "title": "a 44-year-old man with erythema of the face diphenhydramine, neck, and chest, weakness, and palpitations"
+      },
+      {
+        "source": "pubmed",
+        "date": "2019-01-01",
+        "reference": "2",
+        "drug": "DIPHENHYDRAMINE",
+        "atccode": "a04ad",
+        "title": "an evaluation of benadryl, pyribenzamine, and other so-called diphenhydramine antihistaminic drugs in the treatment of allergy."
+      },
+      {
+        "source": "clinical_trial",
+        "date": "2020-01-01",
+        "reference": "NCT01967433",
+        "drug": "DIPHENHYDRAMINE",
+        "atccode": "a04ad",
+        "title": "use of diphenhydramine as an adjunctive sedative for colonoscopy in patients chronically on opioids"
+      },
+      {
+        "source": "clinical_trial",
+        "date": "2020-01-01",
+        "reference": "NCT04189588",
+        "drug": "DIPHENHYDRAMINE",
+        "atccode": "a04ad",
+        "title": "phase 2 study iv quzyttir™ (cetirizine hydrochloride injection) vs v diphenhydramine"
+      },
+      {
+        "source": "clinical_trial",
+        "date": "2020-01-01",
+        "reference": "NCT04237091",
+        "drug": "DIPHENHYDRAMINE",
+        "atccode": "a04ad",
+        "title": "feasibility of a randomized controlled clinical trial comparing the use of cetirizine to replace diphenhydramine in the prevention of reactions related to paclitaxel"
+      }
+    ]
+  },
+  {
+    "journal": "Journal Of Emergency Nursing\\Xc3\\X28",
+    "mentions": [
+      {
+        "source": "clinical_trial",
+        "date": "2020-04-27",
+        "reference": "NCT04188184",
+        "drug": "EPINEPHRINE",
+        "atccode": "a01ad",
+        "title": "tranexamic acid versus epinephrine during exploratory tympanotomy"
+      }
+    ]
+  },
+  {
+    "journal": "Journal Of Food Protection",
+    "mentions": [
+      {
+        "source": "pubmed",
+        "date": "2020-01-01",
+        "reference": "4",
+        "drug": "TETRACYCLINE",
+        "atccode": "s03aa",
+        "title": "tetracycline resistance patterns of lactobacillus buchneri group strains."
+      }
+    ]
+  },
+  {
+    "journal": "Journal Of Photochemistry And Photobiology. B, Biology",
+    "mentions": [
+      {
+        "source": "pubmed",
+        "date": "2020-01-01",
+        "reference": "9",
+        "drug": "ISOPRENALINE",
+        "atccode": "6302001",
+        "title": "gold nanoparticles synthesized from euphorbia fischeriana root by green route method alleviates the isoprenaline hydrochloride induced myocardial infarction in rats."
+      }
+    ]
+  },
+  {
+    "journal": "Psychopharmacology",
+    "mentions": [
+      {
+        "source": "pubmed",
+        "date": "0000-00-00",
+        "reference": "6",
+        "drug": "TETRACYCLINE",
+        "atccode": "s03aa",
+        "title": "rapid reacquisition of contextual fear following extinction in mice: effects of amount of extinction, tetracycline acute ethanol withdrawal, and ethanol intoxication."
+      },
+      {
+        "source": "pubmed",
+        "date": "0000-00-00",
+        "reference": "6",
+        "drug": "ETHANOL",
+        "atccode": "v03ab",
+        "title": "rapid reacquisition of contextual fear following extinction in mice: effects of amount of extinction, tetracycline acute ethanol withdrawal, and ethanol intoxication."
+      }
+    ]
+  },
+  {
+    "journal": "The Journal Of Allergy And Clinical Immunology. In Practice",
+    "mentions": [
+      {
+        "source": "pubmed",
+        "date": "2020-02-01",
+        "reference": "7",
+        "drug": "EPINEPHRINE",
+        "atccode": "a01ad",
+        "title": "the high cost of epinephrine autoinjectors and possible alternatives."
+      },
+      {
+        "source": "pubmed",
+        "date": "2020-03-01",
+        "reference": "8",
+        "drug": "EPINEPHRINE",
+        "atccode": "a01ad",
+        "title": "time to epinephrine treatment is associated with the risk of mortality in children who achieve sustained rosc after traumatic out-of-hospital cardiac arrest."
+      }
+    ]
+  },
+  {
+    "journal": "The Journal Of Maternal-Fetal & Neonatal Medicine",
+    "mentions": [
+      {
+        "source": "pubmed",
+        "date": "2020-01-01",
+        "reference": "10",
+        "drug": "BETAMETHASONE",
+        "atccode": "r01ad",
+        "title": "clinical implications of umbilical artery doppler changes after betamethasone administration"
+      },
+      {
+        "source": "pubmed",
+        "date": "2020-03-01",
+        "reference": "",
+        "drug": "ATROPINE",
+        "atccode": "a03ba",
+        "title": "comparison of pressure betamethasone release, phonophoresis and dry needling in treatment of latent myofascial trigger point of upper trapezius atropine muscle."
+      },
+      {
+        "source": "pubmed",
+        "date": "2020-03-01",
+        "reference": "",
+        "drug": "BETAMETHASONE",
+        "atccode": "r01ad",
+        "title": "comparison of pressure betamethasone release, phonophoresis and dry needling in treatment of latent myofascial trigger point of upper trapezius atropine muscle."
+      }
+    ]
+  },
+  {
+    "journal": "The Journal Of Pediatrics",
+    "mentions": [
+      {
+        "source": "pubmed",
+        "date": "2019-01-02",
+        "reference": "3",
+        "drug": "DIPHENHYDRAMINE",
+        "atccode": "a04ad",
+        "title": "diphenhydramine hydrochloride helps symptoms of ciguatera fish poisoning."
+      }
+    ]
+  }
+]

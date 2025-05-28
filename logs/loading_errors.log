@@ -1,0 +1,9 @@
+[load_csv] Fichier introuvable : C:UsersBekaoOneDriveBureauPython_test_DE v2.0projet_SERVIERData_pipelinedatapubmed.csv
+[load_csv] Fichier introuvable : C:UsersBekaoOneDriveBureauPython_test_DE v2.0projet_SERVIERData_pipelinedatapubmed.csv
+[load_csv] Fichier introuvable : C:UsersBekaoOneDriveBureauPython_test_DE v2.0projet_SERVIERData_pipelinedataclinical_trials.csv
+[load_csv] Fichier introuvable : C:UsersBekaoOneDriveBureauPython_test_DE v2.0projet_SERVIERData_pipelinedataclinical_trials.csv
+[load_csv] Fichier introuvable : /Data/pubmed.csv
+[load_csv] Fichier introuvable : /Data/pubmed.csv
+[load_csv] Fichier introuvable : /Data/pubmed.csv
+[load_json_as_dataframe] JSON invalide (C:/Users/Bekao/OneDrive/Bureau/Python_test_DE v2.0/projet_SERVIER/Data/pubmed.json) : Illegal trailing comma before end of array: line 31 column 4 (char 1339)
+[load_json_as_dataframe] Erreur(Data\pubmed.json) : 'str' object has no attribute 'read'
