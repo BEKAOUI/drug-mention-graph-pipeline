@@ -48,7 +48,23 @@ Chaque source contient des métadonnées clés comme :
 - journal : nom du journal de publication,
 - drug / atccode : dans le fichier drugs.csv, nom du médicament et son code ATC.
 
+# Exécution du pipeline:
+## Prérequis
+Avant d'exécuter le pipeline, assurez-vous d'avoir:
+ - Python 3.8+ installé
+ - Les dépendances installées en tapant en terminal:
+   
+  | `` | pip install -r requirements.txt     |
 
+## Lancer le pipeline
+  | `` | python main.py     |
+  
+- Le pipeline suit les étapes suivantes:
+1. Chargement des données (drugs, pubmed, clinical_trials)
+2. Nettoyage et normalisation des colonnes
+3. Fusion des sources PubMed
+4. Construction du graphe drug-mention
+5. Export au format JSON dans output/graph.json
 
 ## Évolution du pipeline pour traiter de grandes volumiétries
 Ce projet a été conçu pour fonctionner efficacement sur des fichiers de de petite taille. Cependant, pour faire évoluer le code afin qu'il puisse traiter des données à grande échelle (plusieurs To ou millions de fichiers), plusieurs améliorations sont nécessaires.
