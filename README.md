@@ -60,7 +60,11 @@ Avant d'exécuter le pipeline, assurez-vous d'avoir:
 
 
 ## Lancer le pipeline
-  | `` | python main.py     |
+
+ | Commande pour exécuter le pipeline |
+| ---------------------------------- |
+| `python main.py`                   |
+
   
 - Le pipeline suit les étapes suivantes:
 1. Chargement des données (drugs, pubmed, clinical_trials)
