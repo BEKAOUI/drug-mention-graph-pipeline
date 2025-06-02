@@ -47,3 +47,29 @@ Chaque source contient des métadonnées clés comme :
 - date : date de publication d'un article dans un journal,
 - journal : nom du journal de publication,
 - drug / atccode : dans le fichier drugs.csv, nom du médicament et son code ATC.
+
+
+
+## Évolution du pipeline pour traiter de grandes volumiétries
+Ce projet a été conçu pour fonctionner efficacement sur des fichiers de de petite taille. Cependant, pour faire évoluer le code afin qu'il puisse traiter des données à grande échelle (plusieurs To ou millions de fichiers), plusieurs améliorations sont nécessaires.
+ 
+### Format de données adapté
+- Limite actuelle : Les formats CSV / JSON ne sont pas optimisés pour la scalabilité (taille, compression, accès aléatoire inefficace).
+- Recommandation :
+ Remplacer ces formats par des alternatives plus performantes comme Parquet, Avro ou des bases NoSQL (type Bigtable, MongoDB).
+ Ces formats sont mieux compressés, plus rapides à lire et à écrire, et adaptés aux traitements parallèles.
+
+### Chargement mémoire
+- Limite actuelle : pandas.read_csv() ou json.load() charge l'intégralité du fichier en mémoire, ce qui devient impossible pour des fichiers de plusieurs Go/To.
+Recommandation : On peut Utiliser une lecture en streaming ou par morceaux (chunks) via pandas.read_csv(chunksize=...).
+
+### Traitements parallèles ou distribués
+- Limite actuelle : Traitement séquentiel sur une seule machine.
+- Recommandation : On met en place du traitement parallèle local (via multiprocessing etc.).
+  Passer à des frameworks distribués comme Apache Spark (via PySpark, Dataproc, etc.) pour exécuter les étapes sur un cluster de machines.
+
+### Passage au Cloud et Big Data
+- Recommandation : Utiliser un data lake (comme Google Cloud Storage, Azure Blob) pour le stockage distribué de fichiers.
+  Déployer les traitements sur des services Big Data comme :
+  Google Cloud Dataproc (Spark) ou Dataflow, Azure Synapse. Cela permet de profiter d’une scalabilité automatique, du calcul distribué, et de réduire les coûts sur les très gros volumes.
+
