@@ -54,7 +54,10 @@ Avant d'exécuter le pipeline, assurez-vous d'avoir:
  - Python 3.8+ installé
  - Les dépendances installées en tapant en terminal:
    
-  | `` | pip install -r requirements.txt     |
+ | Commande pour installer les dépendances |
+| --------------------------------------- |
+| `pip install -r requirements.txt`       |
+
 
 ## Lancer le pipeline
   | `` | python main.py     |
