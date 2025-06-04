@@ -20,11 +20,11 @@ def _clean_generic(
     source: str
 ) -> pd.DataFrame:
     """
-    Fonction générique de nettoyage de DataFrame :
-    - validation des colonnes
-    - normalisation des IDs
-    - nettoyage des champs texte
-    - validation des dates
+    Generic DataFrame cleaning function:
+    - column validation
+    - ID normalization
+    - text field cleaning
+    - date validation
     """
     _validate_required_columns(df, required_columns, source_name=source)
     df = _normalize_id(df, source_name=source)
@@ -40,34 +40,32 @@ def _clean_generic(
 def clean_pubmed_csv(df: pd.DataFrame, source: str = "pubmed_csv") -> pd.DataFrame:
 
     '''
-    Nettoie le DataFrame PubMed issu d'un CSV avec gestion des erreurs.
+    Cleans the PubMed DataFrame loaded from a CSV file, with error handling.
     
     Args:
-        df: DataFrame brut chargé depuis pubmed.csv
-        log_path: Chemin pour enregistrer les lignes invalides
-        
+    df: Raw DataFrame loaded from pubmed.csv
+    
     Returns:
-        DataFrame nettoyé
+    Cleaned DataFrame
         
     Raises:
-        ValueError: Si colonnes requises manquantes
+    ValueError: If required columns are missing
     '''
 
     return _clean_generic(df, required_columns=required_columns_pubmed, title_col="title", journal_col="journal",date_col="date", source=source)
 
 def clean_clinical(df: pd.DataFrame, source: str = "clinical_tials.csv") -> pd.DataFrame:
     '''
-    Nettoie le DataFrame clinical_trials.csv issu d'un CSV avec gestion robuste des erreurs.
+       Cleans the clinical_trials.csv DataFrame with robust error handling.
     
     Args:
-        df: DataFrame brut chargé depuis clinical_tials.csv
-        log_path: Chemin pour enregistrer les lignes invalides
-        
+        df: Raw DataFrame loaded from clinical_trials.csv
+    
     Returns:
-        DataFrame nettoyé
-        
+        Cleaned DataFrame
+    
     Raises:
-        ValueError: Si colonnes requises manquantes
+        ValueError: If required columns are missing
     '''
 
     return _clean_generic(df, required_columns=required_columns_clinical_trials, title_col="scientific_title", journal_col="journal",date_col="date", source=source)
@@ -75,40 +73,37 @@ def clean_clinical(df: pd.DataFrame, source: str = "clinical_tials.csv") -> pd.D
 
 def clean_pubmed_json(df: pd.DataFrame, source: str = "pubmed.json") -> pd.DataFrame:
     """
-    Nettoie le DataFrame PubMed issu d'un json avec gestion robuste des erreurs.
-    
-    Args:
-        df: DataFrame brut chargé depuis pubmed.json
-        log_path: Chemin pour enregistrer les lignes invalides
+        Cleans the PubMed DataFrame loaded from a JSON file with robust error handling.
         
-    Returns:
-        DataFrame nettoyé
+        Args:
+            df: Raw DataFrame loaded from pubmed.json
         
-    Raises:
-        ValueError: Si colonnes requises manquantes
+        Returns:
+            Cleaned DataFrame
+        
+        Raises:
+            ValueError: If required columns are missing
     """
     return _clean_generic(df, required_columns=required_columns_pubmed_json , title_col="title", journal_col="journal",date_col="date", source=source)
 
 def clean_drugs_csv(df: pd.DataFrame, source: str = "drugs.csv") -> pd.DataFrame:
     """
-        Nettoie le DataFrame drugs.csv issu d'un CSV avec gestion robuste des erreurs.
+    Cleans the drugs.csv DataFrame loaded from a CSV file with robust error handling.
     
     Args:
-        df: DataFrame brut chargé depuis drugs.csv
-        log_path: Chemin pour enregistrer les lignes invalides
-        
+        df: Raw DataFrame loaded from drugs.csv
+    
     Returns:
-        DataFrame nettoyé
-        
+        Cleaned DataFrame
+    
     Raises:
-        ValueError: Si colonnes requises manquantes
+        ValueError: If required columns are missing
     
     """
 
-    #Etape 1: Validation des colonnes requises
+    #Check for presence of required columns
     required_columns = {"atccode","drug"}
     _validate_required_columns(df, required_columns, source_name=source)
-    # Création du répertoire de logs si inexistant
     df = _clean_text_fields(df, title_col="atccode", journal_col="drug", source_name=source)
     df = df.assign(drug_lower=df["drug"].str.lower())
     return df
