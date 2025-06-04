@@ -8,8 +8,8 @@ logger = get_logger()
 
 def _validate_required_columns(df: pd.DataFrame, required_columns: set, source_name: str):
     """
-    Vérifie si les colonnes attendues sont présentes dans le DataFrame.
-    sinon une erreur explicite 
+    Checks whether the expected columns are present in the DataFrame.
+    Raises an explicit error if any are missing.
     """
     missing = required_columns - set(df.columns)
     if missing:
@@ -20,9 +20,8 @@ def _validate_required_columns(df: pd.DataFrame, required_columns: set, source_n
 
 def _normalize_id(df: pd.DataFrame, source_name: str) -> pd.DataFrame:
     """
-    Normalise les ID dans le fichier clinical_trials et Pubmed:
-    - Nettoie les espaces
-    - Remplace les IDs vides ou manquants par des UUID uniques (str)
+     Normalizes IDs in the clinical_trials and PubMed files:
+    - Strips whitespace
     """
     missing_mask = df["id"].astype(str).str.strip().isin(["", "nan", "None"])
 
@@ -30,6 +29,9 @@ def _normalize_id(df: pd.DataFrame, source_name: str) -> pd.DataFrame:
         logger.warning(
             f"[{source_name}] Champs 'id' vide ou null détecté (ligne = {df[missing_mask]})."
         )
+        
+    
+    # Data entries without 'id' are intentionally processed to avoid data loss
     return df
 
 def _clean_text_fields(df: pd.DataFrame, title_col: str, journal_col: str, source_name :str) -> pd.DataFrame:
@@ -52,6 +54,6 @@ def _parse_and_validate_dates(df: pd.DataFrame, col: str, source_name: str) -> p
         logger.warning(
             f"[{source_name}] Les Champs 'date' est invalide (ligne = {invalid})."
         )
-    # on taite quand-même les données sans dates
+    # Data entries without 'date' are intentionally processed to avoid data loss
     return df
-    #return df.dropna(subset=[col])
+
