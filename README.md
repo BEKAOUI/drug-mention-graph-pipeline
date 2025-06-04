@@ -52,11 +52,18 @@ Chaque source contient des métadonnées clés comme :
 ## Prérequis
 Avant d'exécuter le pipeline, assurez-vous d'avoir:
  - Python 3.8+ installé
- - Les dépendances installées en tapant en terminal:
-   
- | Commande pour installer les dépendances |
+ - Création de l’environnement virtuel:
+
+ | Commande  Création de l'environnement virtuel|
 | --------------------------------------- |
-| `pip install -r requirements.txt`       |
+| `python -m venv .venv`                  |
+
+ 
+ - Activation de l'environnement:
+   
+ | Commande pour l'activation de l'environnement |
+| --------------------------------------- |
+| `.venv\Scripts\activate`                |
 
 
 ## Lancer le pipeline
