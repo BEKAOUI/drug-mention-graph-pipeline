@@ -8,21 +8,21 @@ logger = logging.getLogger(__name__)
 
 def build_graph(drugs_clean: pd.DataFrame, pubmed_merge_clean: pd.DataFrame, clinical_clean: pd.DataFrame) -> List[Dict[str, Any]]:
     """
-    Construit le graphe de relations médicament-journaux avec mentions datées.
+       Builds the drug-journal relationship graph with dated mentions.
     
     Args:
-        drugs: DataFrame des médicaments (atccode, drug)
-        pubmed: DataFrame PubMed (id, title, date, journal)
-        clinical: DataFrame Clinical Trials (id, scientific_title, date, journal)
+        drugs: DataFrame of drugs (atccode, drug)
+        pubmed: PubMed DataFrame (id, title, date, journal)
+        clinical: Clinical Trials DataFrame (id, scientific_title, date, journal)
     
     Returns:
-        Liste de dictionnaires triés par journal et date
-        
-    Example de sortie:
+        List of dictionaries sorted by journal and date
+    
+    Example output:
         [{
             "journal": "Journal of...",
             "mentions": [
-                {"source": "pubmed", "drug": "DIPHEN...", ...}
+                {"source": "pubmed", "drug": "DIPHEN...","date":"04/06/2025" ...}
             ]
         }]
     """
@@ -41,7 +41,7 @@ def build_graph(drugs_clean: pd.DataFrame, pubmed_merge_clean: pd.DataFrame, cli
                     _build_mention(row, drug_row, "pubmed")
                 )
             
-            # Recherche Clinical
+            # Clinical research
             clinical_matches = clinical_clean[
                 clinical_clean["scientific_title"].str.lower().str.contains(drug_row["drug_lower"])
             ]
