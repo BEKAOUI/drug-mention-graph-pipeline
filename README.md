@@ -65,6 +65,10 @@ Avant d'exécuter le pipeline, assurez-vous d'avoir:
 | --------------------------------------- |
 | `.venv\Scripts\activate`                |
 
+- Une fois l’environnement activé, installez les dépendances du projet :
+| Commande pour installez les dépendances du projet |
+| --------------------------------------- |
+| `pip install -r requirements.txt`       |
 
 ## Lancer le pipeline
 
