@@ -10,14 +10,14 @@ logger = logging.getLogger(__name__)
 
 def export_graph(graph_data: List[Dict[str, Any]], output_path: str = "output/graph.json") -> None:
     """
-    Exporte les données du graphe au format JSON dans un fichier de sortie.
-
+    Exports the graph data to a JSON file.
+    
     Args:
-        graph_data: Données à exporter (list ou dict JSON-serialisable)
-        output_path: Chemin du fichier de sortie
-
+        graph_data: Data to export (JSON-serializable list or dict)
+        output_path: Path to the output file
+    
     Raises:
-        IOError: Si l'écriture échoue
+        IOError: If writing to the file fails
     """
     try:
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -29,7 +29,7 @@ def export_graph(graph_data: List[Dict[str, Any]], output_path: str = "output/gr
         raise
 
 def _format_output(journal_graph: defaultdict) -> List[Dict]:
-    """Formate et trie la sortie finale"""
+    """Formats and sorts by date the final output """
     return sorted(
         [
             {
@@ -42,7 +42,7 @@ def _format_output(journal_graph: defaultdict) -> List[Dict]:
     )
 
 def _build_mention(row: pd.Series, drug_row: pd.Series, source_type: str) -> Dict[str, Any]:
-    """Construit une entrée standardisée de mention"""
+    """Builds a standardized mention entry"""
     date_obj = row["date"] if isinstance(row["date"], datetime) else pd.to_datetime(row["date"])
     formatted_date = date_obj.strftime("%Y-%m-%d") if pd.notnull(date_obj) else "0000-00-00"
     return {
