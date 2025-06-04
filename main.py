@@ -11,7 +11,7 @@ logger = get_logger()
 def run_pipeline():
     logger.info("Début du pipeline de traitement des données")
 
-    # Chargement des données
+    # Data loading
     logger.info("Chargement des données : drugs")
 
     drugs = load_csv(DATA_PATHS["drugs"])
@@ -19,7 +19,7 @@ def run_pipeline():
     pubmed_json = load_json_as_dataframe(DATA_PATHS["pubmed_json"])
     clinical = load_csv(DATA_PATHS["clinical_trials"])
     
-    # Nettoyage
+    # Data cleaning
     logger.info("Nettoyage des données")
 
     pubmed_clean = clean_pubmed_csv(pubmed_csv)
@@ -30,11 +30,11 @@ def run_pipeline():
     # Fusion PubMed
     pubmed_merged = merge_pubmed_sources(pubmed_clean, pubmed_json_clean)
 
-    # Construction du graphe
+    # Graph construction
     logger.info("Construction du graphe de données")
     graph_data = build_graph(drugs_clean, pubmed_merged, clinical_clean)
 
-    # Export
+    # Export the graph data
     export_graph(graph_data, output_path="output/graph.json")
 
     # Methode 2
