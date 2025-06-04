@@ -3,7 +3,7 @@ from config.config import LOG_FILE_PATH
 
 
 def get_logger(name=__name__):
-    # Création (ou récupération) d'un logger avec un nom spécifique
+    # Creates (or retrieves) a logger with a specific name
     logger = logging.getLogger(name)
 
     if not logger.handlers:
