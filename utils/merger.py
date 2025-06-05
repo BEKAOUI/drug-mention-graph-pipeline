@@ -1,4 +1,3 @@
-# merger.py
 import pandas as pd
 
 def merge_pubmed_sources(pubmed_csv: pd.DataFrame, pubmed_json: pd.DataFrame) -> pd.DataFrame:
