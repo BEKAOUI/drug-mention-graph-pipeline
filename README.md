@@ -1,4 +1,4 @@
-# drug-mention-graph-pipeline
+# Drug Mention Graph Pipeline
 This repository contains the code required to prepare the data for generating a graph of drug mentions in scientific publications (PubMed) and clinical trials, linking them to medical journals.
 
 ## Data Preparation Workflow:
@@ -15,12 +15,12 @@ Build a directed graph that maps drugs to their mentions within scientific publi
 Serialize and save the resulting graph structure in JSON format to the output folder for downstream processing.
 
  ## Integration
-This pipeline is intended for integration within a DAG-based workflow orchestrator for automated execution and monitoring.
+This pipeline is intended for integration within a DAG-based workflow orchestrator (e.g., Apache Airflow), allowing for automated, scheduled, and monitored data workflows.
 
 ##  Structure du projet
 drug-mention-graph-pipeline/  
 ├── data /                     # Source data (CSV, JSON)  
-├── cofig /                    # Configuration files (paths, constants, etc.)
+├── config /                    # Configuration files (paths, constants, etc.)
 ├── data_collection /           # Scripts to load and parse data 
 ├── data_preparation /          # Data cleaning, normalization, and processing  
 ├── graph_builder /             # Construction of the drug-mention graph
@@ -87,7 +87,7 @@ Before running the pipeline, please ensure you have:
 1. Data loading (drugs, pubmed, clinical_trials)
 2. Cleaning and normalizing columns
 3. Merging PubMed sources
-4. Construction du graphe drug-mention
+4. Drug-mention graph construction
 5. Exporting the graph as JSON to output/graph.json
 
 ## Pipeline Scalability for Large Volumes
@@ -111,7 +111,7 @@ Implement local parallelism (e.g., using Python’s multiprocessing module).
 For larger scale, transition to distributed frameworks such as Apache Spark (via PySpark, Dataproc, etc.) to run processing steps on a cluster.
 
 ### Cloud and Big Data Adoption
-- *Recommandation*:
+- *Recommendation*:
 Store data in a data lake such as Google Cloud Storage or Azure Blob Storage to enable distributed file storage.
 Run processing jobs on Big Data services like Google Cloud Dataproc (Spark), Dataflow, or Azure Synapse Analytics.
 These platforms provide automatic scalability, distributed computing, and cost efficiencies for very large volumes of data.
